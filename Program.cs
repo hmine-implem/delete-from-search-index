@@ -70,7 +70,6 @@ class CurrentIndexContent {
     public required string OdataContext { get; set; }
     [JsonProperty("@odata.count")]
     public required int OdataCount { get; set; }
-
     [JsonProperty("value")]
     public required List<CurrentIndexValue> Values { get; set; }
 }
