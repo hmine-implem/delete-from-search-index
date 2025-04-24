@@ -9,7 +9,7 @@ Azureのサービスの一つである「[Azure AI Search](https://learn.microso
 - [Azure AI Search REST API](https://learn.microsoft.com/ja-jp/rest/api/searchservice/addupdate-or-delete-documents)を呼び出してインデックスを操作します。
     - api-versionにはapi-version=2024-07-01を指定しています。
 - [Azure AI Searchを利用したSemantic Kernelテキスト検索(RAG)の実装](https://github.com/pleasanter-developer-community/azure-ai-rag-with-pleasanter/tree/feature/api-upload-index)で構築するインデックスの削除に特化したツールです。
-  - 上記記事で提供している方式はプリザンターとAI Searchに1対1でIDで存在することが前提です。したがって、誤った操作で先行してプリザンターのデータを削除してしまった場合にインデックスのみにデータが残留することがあり、該当ケースのインデックスを削除する目的で、筆者はこのツールを使用しました。
+  - 上記記事が最初に公開された時は[プリザンター](https://pleasanter.org/)において、一括削除時にサーバスクリプトを実行する機能がなかったため、インデックスの削除はプリザンター上からの個別削除と連動させて削除することしかできませんでした。そのため本ツールを開発しインデックスの削除作業を一括で行えるようにして作業を効率化させていました。
 
 ## 特徴
 AI Searchのインデックスの「検索エクスプローラ」（★）全体をコピー＆ペーストしてinput.jsonに貼り付けておくと、そのまま「検索エクスプローラ」に表示されていた全インデックスが削除対象となります。  
