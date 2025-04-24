@@ -8,7 +8,7 @@ Azureのサービスの一つである「[Azure AI Search](https://learn.microso
 ### 対応API
 - [Azure AI Search REST API](https://learn.microsoft.com/ja-jp/rest/api/searchservice/addupdate-or-delete-documents)を呼び出してインデックスを操作します。
     - api-versionにはapi-version=2024-07-01を指定しています。
-- 特にインデックスの削除に特化したツールです。
+- [Azure AI Searchを利用したSemantic Kernelテキスト検索(RAG)の実装](https://github.com/pleasanter-developer-community/azure-ai-rag-with-pleasanter/tree/feature/api-upload-index)で構築するインデックスの削除に特化したツールです。
 
 ## 特徴
 AI Searchのインデックスの「検索エクスプローラ」（★）全体をコピー＆ペーストしてinput.jsonに貼り付けておくと、そのまま「検索エクスプローラ」に表示されていた全インデックスが削除対象となります。  
@@ -47,3 +47,4 @@ AI Searchのインデックスの「検索エクスプローラ」（★）全�
 ## 関連情報
 - [Azure AI Search の概要 - Azure AI Search | Microsoft Learn](https://learn.microsoft.com/ja-jp/azure/search/search-what-is-azure-search)
 - [ドキュメントの追加、更新、または削除" - Azure AI Search | Microsoft Learn](https://learn.microsoft.com/ja-jp/rest/api/searchservice/addupdate-or-delete-documents)
+- [Azure AI Searchを利用したSemantic Kernelテキスト検索(RAG)の実装](https://github.com/pleasanter-developer-community/azure-ai-rag-with-pleasanter/tree/feature/api-upload-index)
